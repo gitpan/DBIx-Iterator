@@ -4,7 +4,7 @@ author:
   - 'Robin Smidsrød <robin@smidsrod.no>'
 build_requires:
   DBI: 0
-  SQL::Statement: 0
+  SQL::Statement: 1.401
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -21,4 +21,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/robinsmidsrod/DBIx-Iterator.git
-version: 0.0.1
+version: 0.0.2

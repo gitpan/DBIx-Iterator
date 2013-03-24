@@ -36,7 +36,7 @@
       "test" : {
          "requires" : {
             "DBI" : "0",
-            "SQL::Statement" : "0",
+            "SQL::Statement" : "1.401",
             "Test::More" : "0"
          }
       }
@@ -49,6 +49,6 @@
          "web" : "http://github.com/robinsmidsrod/DBIx-Iterator"
       }
    },
-   "version" : "0.0.1"
+   "version" : "0.0.2"
 }
 

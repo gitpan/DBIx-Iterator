@@ -13,7 +13,7 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Robin Smidsr\303\270d <robin\@smidsrod.no>",
   "BUILD_REQUIRES" => {
     "DBI" => 0,
-    "SQL::Statement" => 0,
+    "SQL::Statement" => "1.401",
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.1",
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

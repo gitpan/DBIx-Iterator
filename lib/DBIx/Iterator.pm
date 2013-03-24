@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package DBIx::Iterator;
 {
-  $DBIx::Iterator::VERSION = '0.0.1';
+  $DBIx::Iterator::VERSION = '0.0.2';
 }
 
 # ABSTRACT: Query your database using iterators and save memory
@@ -53,7 +53,7 @@ DBIx::Iterator - Query your database using iterators and save memory
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 
